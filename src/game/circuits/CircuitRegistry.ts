@@ -1,0 +1,43 @@
+import { CircuitId, CircuitInfo } from './ICircuit';
+
+export const AVAILABLE_CIRCUITS: CircuitInfo[] = [
+  {
+    id: 'square_apex',
+    name: 'Apex Speed Ring',
+    location: 'Silverstone Valley',
+    country: 'United Kingdom',
+    totalLength: 4.8,
+    cornersCount: 12,
+    flagEmoji: '🇬🇧',
+    expectedLapTimeSec: 74,
+    topSpeedKmh: 342,
+    description: 'Circuito técnico de alta velocidad con horquillas pronunciadas.',
+    image: '/file_00000000e264824687ae7e9b4391b94c.png',
+  },
+  {
+    id: 'monza',
+    name: 'Autodromo Nazionale',
+    location: 'Monza',
+    country: 'Italy',
+    totalLength: 5.79,
+    cornersCount: 11,
+    flagEmoji: '🇮🇹',
+    expectedLapTimeSec: 81,
+    topSpeedKmh: 355,
+    description: 'El templo de la velocidad con chicanes agresivas.',
+    image: '/images/screen3_bg.png',
+  },
+  {
+    id: 'spa',
+    name: 'Circuit de Spa',
+    location: 'Stavelot',
+    country: 'Belgium',
+    totalLength: 7.0,
+    cornersCount: 19,
+    flagEmoji: '🇧🇪',
+    expectedLapTimeSec: 104,
+    topSpeedKmh: 338,
+    description: 'Mítico trazado montañoso con la icónica subida de Eau Rouge.',
+    image: '/file_00000000e264824687ae7e9b4391b94c.png',
+  },
+];
